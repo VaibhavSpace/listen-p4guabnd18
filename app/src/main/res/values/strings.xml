@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Listen</string>
+    <string name="discover">Discover</string>
+    <string name="adele">Adele</string>
+    <string name="avril_lavigne">Avril Lavigne</string>
+    <string name="anoushka_shankar">Anoushka Shankar</string>
+    <string name="dido">Dido</string>
+    <string name="lucky_ali">Lucky Ali</string>
+    <string name="what_do_you_want_to_listen_today">What do you want to listen today?</string>
+    <string name="playlist">Playlist</string>
+    <string name="random">Random</string>
+    <string name="repeat_icon">repeat_icon</string>
+    <string name="shuffle_icon">shuffle_icon</string>
+    <string name="random_list_2">Random List 2</string>
+    <string name="random_list_1">Random List 1</string>
+
+</resources>

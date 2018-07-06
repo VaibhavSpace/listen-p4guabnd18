@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Playlist"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/adele"
+            style="@style/playlistTextView"
+            android:text="@string/adele"/>
+
+        <TextView
+            android:id="@+id/avril"
+            style="@style/playlistTextView"
+            android:text="@string/avril_lavigne" />
+
+        <TextView
+            android:id="@+id/anoushka"
+            style="@style/playlistTextView"
+            android:text="@string/anoushka_shankar" />
+
+        <TextView
+            android:id="@+id/dido"
+            style="@style/playlistTextView"
+            android:text="@string/dido" />
+
+        <TextView
+            android:id="@+id/lucky"
+            style="@style/playlistTextView"
+            android:text="@string/lucky_ali" />
+    </LinearLayout>
+</ScrollView>

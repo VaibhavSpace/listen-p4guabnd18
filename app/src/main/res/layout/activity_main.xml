@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/discover_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/margin_16"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/titilliumweb_regular"
+            android:text="@string/discover" />
+
+        <Button
+            android:id="@+id/playlist_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/margin_16"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/titilliumweb_regular"
+            android:text="@string/playlist" />
+
+        <Button
+            android:id="@+id/random_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/margin_16"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/titilliumweb_regular"
+            android:text="@string/random" />
+
+
+    </LinearLayout>
+</ScrollView>
